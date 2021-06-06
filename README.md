@@ -1,6 +1,14 @@
 # checkbox-parser
 A python module that takes a list object and transforms it to a HTML fieldsets with a question and its answers as checkboxs that can be rendered in flask. The purpose is that the list that is consumed could reside in a noSQL database as a document(MongoDB, Firestore, DynamoDB)
 
+
+# Installing module
+
+Simple as:
+```
+python3 -m pip install checkbox_parser
+```
+
 # How it works?
 first, you need a list in this structured way 
 
