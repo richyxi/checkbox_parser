@@ -2,7 +2,7 @@
 ## coding: latin-1
 
 
-from checkbox_parser.html_parser import html_parser
+from checkbox_parser import html_parser
 
 data = [
     {
