@@ -31,7 +31,7 @@ class html_parser:
 
         answer_formated = answer.replace(" ", "_")
         input_html = f"<input class='form-check-input' type='checkbox'  id='{answer_formated}-{id_question}-{uid}' name='group1'>"
-        label_html = f"<label class='form-check-label' style='font-size: 20px;' for='{answer_formated}-{id_question}-{uid}'>'{answer}'</label><br>"
+        label_html = f"<label class='form-check-label' style='font-size: 20px;' for='{answer_formated}-{id_question}-{uid}'>{answer}</label><br>"
 
         quest_elem.append([input_html, label_html])
 
