@@ -38,6 +38,13 @@ In order to get the html you can use the get_html method, this will return the h
 
 
 ```
+
+from checkbox_parser import html_parser
+
+
+...
+
+
 parser = html_parser(data)
 parser.get_html()
 ```
